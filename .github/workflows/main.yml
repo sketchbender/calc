@@ -23,7 +23,7 @@ jobs:
    
     - name: python applicaton
       run: |
-        python calculator_py.py
+        python calculator.py
     - name: Run Tests
       run: |
         python test_calculator.py
